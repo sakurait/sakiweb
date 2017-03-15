@@ -1,0 +1,1 @@
+docker run --name mynginx -p 80:80 -p 443:443 -d mynginx:1
