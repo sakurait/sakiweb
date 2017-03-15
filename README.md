@@ -6,7 +6,7 @@ eval `aws ecr get-login --region eu-west-1`
 
 #if you want to pull down the latest docker image 
 
-Docker pull 361709907648.dkr.ecr.eu-west-1.amazonaws.com/sakurait_web:latest
+docker pull 361709907648.dkr.ecr.eu-west-1.amazonaws.com/sakurait_web:latest
 
 
 
