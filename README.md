@@ -1,4 +1,5 @@
 #Push to prod info
+
 Eval `aws ecr get-login --region eu-west-1`
 
 #if you want to pull down the latest docker image 
