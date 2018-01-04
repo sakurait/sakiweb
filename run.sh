@@ -1,1 +1,2 @@
-docker run --name mynginx -p 80:80 -p 443:443 -d mynginx:1
+#!/bin/bash
+docker run --name speedtestw -p 3001:80 -d -v $(pwd)/mnt/data.csv:/mnt/data.csv speedtestw:latest
